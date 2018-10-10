@@ -1,75 +1,100 @@
-body {
-  background-color: #242f44;
-  color: white;
-    font-family: 'Oswald', sans-serif;
+.grid {
+  display: grid;
+  border: 2px #A3E4D7 solid;
+  width: 1335px;
+  height: 1100px;
+  grid-template: 1fr 2fr 2fr 2fr 2fr / 2fr 8fr;
+	grid-column-gap: 25px;
+
+  background-color: #73C6B6;
 }
 
-header {
+.box {
+  border-radius: 5px;
+  grid-template: 1fr 2fr 2fr 2fr 1fr / 2fr 6fr
+}
+
+h1.name {
+  text-align: center;
+  margin-top: 25px;
+}
+
+#sq {
+  border: 3px solid white;  
+}
+
+.blank{
+  background-color: #D4EFDF;
+}
+
+.Biblio{
+  font-size: 2em;
+  background-color: #A2D9CE;
+  color: red;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+.WE {
+  background-color: #A3E4D7;
+  color: red;
   text-align: center;
   margin-top: 5px;
 }
 
-h1 {
-  font-size: 36px;
-  padding: 15px;
-  color: #8c6b48;
-  background-color: white;
-}
-
-h2 {
-  font-size: 24px;
-  padding: 15px;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-size: 20px;
-  padding: 15px;
-  text-transform: uppercase;
-  text-align: left;
-  margin-left: 20px;
-  font-weight: 500;
-  line-height: 2.7;
-  letter-spacing: 0.8px;
-}
-
-th {
-  border: 2px solid #8c6b48;
-}
-
-table {
+.Edu {
+  background-color: #D1F2EB;
+  color: white;
   text-align: center;
-  margin: 20px auto;
+  margin-top: 5px;
 }
 
-td {
-  border: 2px solid #8c6b48;
-  width: 300px;
+.picture {
+  margin-top: 10px;
+	height: 250px;
+  border-radius: 95%;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
 }
 
-footer {
-  margin-top: 50px;
+#contact {
+  background-color: red;
+  color: white;
   text-align: center;
-  position: fixed;
-  width: 100%;
-  bottom: 5px;
-  background-color: #242f44;
-  z-index: 5;
-}
-footer h3 {
-  display: inline-block;
-  font-size: 14px;
-  background-color: #242f44;
+	margin-top: 1px;
 }
 
-.container {
-  background-color: #33C7FF;
-  max-width: 180px;
-  margin: 0 auto;
-  height: 800px;
+.contactinfo{
+  background-color: #A3E4D7;
+  color: white;
+  text-align: center;
+  margin-top: 5px;
 }
 
+.SM {
+  background-color: #D1F2EB;
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+}
 
-.left {
-  width: 150px;
+#SMedia{
+  background-color: red;
+  color: white;
+  text-align: center;
+	margin-top: 1px;
+}
+
+.empty {
+  background-color: #E8F8F5;
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.skills{
+  background-color: #E8F8F5;
+  color: red;
+  text-align: center;
+  margin-top: 5px;
 }
