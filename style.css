@@ -1,11 +1,10 @@
 .grid {
   display: grid;
   border: 2px #A3E4D7 solid;
-  width: 1335px;
-  height: 1100px;
+  width: 1300px;
+  height: 1000px;
   grid-template: 1fr 2fr 2fr 2fr 2fr / 2fr 8fr;
 	grid-column-gap: 25px;
-
   background-color: #73C6B6;
 }
 
@@ -24,28 +23,35 @@ h1.name {
 }
 
 .blank{
-  background-color: #D4EFDF;
+  background-color: #73C6B6;
 }
 
-.Biblio{
-  font-size: 2em;
+.Biography{
   background-color: #A2D9CE;
-  color: red;
-  text-align: center;
+  color: black;
+  text-align: left;
   margin-top: 5px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
-.WE {
-  background-color: #A3E4D7;
-  color: red;
-  text-align: center;
+#BioHeading {
+  text-transform: uppercase;
+  color: black;
   margin-top: 5px;
+}
+
+.WorkandExp {
+  text-transform: uppercase;
+  background-color: #A3E4D7;
+  color: black;
+  text-align: center;
+  margin-top: 1px;
 }
 
 .Edu {
+  text-transform: uppercase;
   background-color: #D1F2EB;
-  color: white;
+  color: black;
   text-align: center;
   margin-top: 5px;
 }
@@ -53,48 +59,75 @@ h1.name {
 .picture {
   margin-top: 10px;
 	height: 250px;
+}
+
+#OvalPic {
+  height: 180px;
+  width: 200px;
   border-radius: 95%;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #contact {
-  background-color: red;
-  color: white;
+  margin-top: 1px;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
   text-align: center;
-	margin-top: 1px;
 }
 
 .contactinfo{
   background-color: #A3E4D7;
-  color: white;
-  text-align: center;
+  color: black;
+  text-align: left;
   margin-top: 5px;
 }
 
 .SM {
   background-color: #D1F2EB;
-  color: white;
-  text-align: center;
+  color: black;
+  text-align: left;
   margin-top: 5px;
 }
 
 #SMedia{
-  background-color: red;
-  color: white;
+  text-transform: uppercase;
+  background-color: ehite;
+  color: black;
   text-align: center;
-	margin-top: 1px;
+	margin-top: 15px;
 }
 
 .empty {
+  background-color: #D1F2EB;
+}
+
+.skills{
+  text-transform: uppercase;
   background-color: #E8F8F5;
-  color: white;
+  color: black;
   text-align: center;
   margin-top: 5px;
 }
 
-.skills{
-  background-color: #E8F8F5;
-  color: red;
-  text-align: center;
-  margin-top: 5px;
+.fa {
+  margin: 5px 2px;
+}
+
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram {
+  color: black;
+}
+
+
+.year, .year2, .year3{
+  text-align: left;
+
+}
+
+.Sch, .Sch2, .Sch3{
+  text-align: right;
+
 }
