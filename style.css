@@ -1,7 +1,7 @@
 .grid {
   display: grid;
   border: 2px #A3E4D7 solid;
-  width: 1300px;
+  width: 1335px;
   height: 1000px;
   grid-template: 1fr 2fr 2fr 2fr 2fr / 2fr 8fr;
 	grid-column-gap: 25px;
@@ -13,17 +13,31 @@
   grid-template: 1fr 2fr 2fr 2fr 1fr / 2fr 6fr
 }
 
+body {
+  background-color: #73C6B6;
+}
+
 h1.name {
   text-align: center;
   margin-top: 25px;
 }
 
 #sq {
-  border: 3px solid white;  
+  border: 3px solid white;
+  margin: 0 auto;  
+  padding: 10px;
 }
 
 .blank{
   background-color: #73C6B6;
+}
+
+#BioHeading {
+  text-transform: uppercase;
+  color: black;
+  margin-top: 5px;
+  padding-left: 5px;
+  text-align: left;
 }
 
 .Biography{
@@ -32,12 +46,7 @@ h1.name {
   text-align: left;
   margin-top: 5px;
   font-size: 20px;
-}
-
-#BioHeading {
-  text-transform: uppercase;
-  color: black;
-  margin-top: 5px;
+  padding-left: 15px;
 }
 
 .WorkandExp {
@@ -53,7 +62,7 @@ h1.name {
   background-color: #D1F2EB;
   color: black;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 1px;
 }
 
 .picture {
@@ -71,7 +80,7 @@ h1.name {
   margin-right: auto;
 }
 
-#contact {
+#contact, #SMedia {
   margin-top: 1px;
   text-transform: uppercase;
   background-color: white;
@@ -90,27 +99,30 @@ h1.name {
   background-color: #D1F2EB;
   color: black;
   text-align: left;
-  margin-top: 5px;
+  margin-top: 1px;
 }
 
-#SMedia{
-  text-transform: uppercase;
-  background-color: ehite;
-  color: black;
-  text-align: center;
-	margin-top: 15px;
-}
 
 .empty {
   background-color: #D1F2EB;
 }
 
-.skills{
+#Skillheader{
   text-transform: uppercase;
   background-color: #E8F8F5;
   color: black;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 1px;
+}
+.skills {
+  text-align: left;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  align-items: center;
+  padding-left: 40%;
 }
 
 .fa {
@@ -129,5 +141,4 @@ h1.name {
 
 .Sch, .Sch2, .Sch3{
   text-align: right;
-
 }
