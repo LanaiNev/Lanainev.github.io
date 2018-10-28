@@ -19,14 +19,20 @@ body {
 
 h1.name {
   text-align: center;
-  margin-top: 25px;
 }
 
 #sq {
   border: 3px solid white;
   margin: 0 auto;  
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  width: 380px;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .blank{
   background-color: #73C6B6;
@@ -49,15 +55,9 @@ h1.name {
   padding-left: 15px;
 }
 
-.WorkandExp {
-  text-transform: uppercase;
-  background-color: #A3E4D7;
-  color: black;
-  text-align: center;
-  margin-top: 1px;
-}
 
-.Edu {
+
+.Edu, .WorkandExp {
   text-transform: uppercase;
   background-color: #D1F2EB;
   color: black;
@@ -129,16 +129,15 @@ h1.name {
   margin: 5px 2px;
 }
 
-.fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram {
-  color: black;
-}
-
-
-.year, .year2, .year3{
+.year, .year2, .year3, .Duty{
+  padding-left: 4%;
   text-align: left;
 
 }
 
-.Sch, .Sch2, .Sch3{
+.Sch, .Sch2, .Sch3, .Place{
+  padding-right: 4%;
   text-align: right;
 }
+
+
